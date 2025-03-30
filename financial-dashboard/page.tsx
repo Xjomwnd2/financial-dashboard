@@ -1,8 +1,9 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card as UICard, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card as OtherCard } from "some-other-library";
 import { Button } from "@/components/ui/button";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 import { Menu, User, Search } from "lucide-react";
-import { Card } from "@/components/ui/card";
+
 
 
 const data = [
