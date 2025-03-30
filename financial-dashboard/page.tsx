@@ -1,4 +1,7 @@
 import { Card } from '@/components/ui/card';
+import { CardHeader } from '@/components/ui/card-header';
+import { CardTitle } from '@/components/ui/card-title';
+import { CardContent } from '@/components/ui/card-content';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 
 const data = [
